@@ -32,3 +32,5 @@ class CrudPHP {
 
 $new = new CrudPHP;
 
+$new->Crud('SELECT * FROM test','WHERE id = ?', [1]);
+
